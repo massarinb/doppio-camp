@@ -17,6 +17,11 @@ TC-002 Massarin Baha Central Testcase
 	Input Text    id=txt-searchProductOnSearchBar    Panasonic
     Press Keys    None    RETURN
 
+TC-003 Massarin Merge Conflict Testcase 1 
+    Open Browser    https://www.central.co.th/en    browser=chrome	
+	Input Text    id=txt-searchProductOnSearchBar    Panasonic
+    Press Keys    None    RETURN
+
 TC-004 Massarin Baha Test Merge Conflict 2
     Open Browser    https://www.central.co.th/en    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    Panasonic
