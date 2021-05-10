@@ -12,8 +12,12 @@ TC-001 Massarin Baha First Robot Testcase
 	Input Text    name=q    Automate Test with Doppio
     simple.​Say Hello
 
-*** Test cases ***
 TC-002 Massarin Baha Central Testcase
+    Open Browser    https://www.central.co.th/en    browser=chrome	
+	Input Text    id=txt-searchProductOnSearchBar    Panasonic
+    Press Keys    None    RETURN
+
+TC-004 Massarin Baha Test Merge Conflict 2
     Open Browser    https://www.central.co.th/en    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    Panasonic
     Press Keys    None    RETURN
