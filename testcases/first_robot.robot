@@ -1,13 +1,19 @@
 *** Settings ***
-Library		SeleniumLibrary
+Library    SeleniumLibrary
 Resource    ${CURDIR}/../keywords/simple.robot
 Test Teardown    Close All Browsers
 
 *** variables ***
-${message}		test_message
+${message}    test_message
 ​
 *** Test cases ***
 TC-001 Massarin Baha First Robot Testcase
-    Open Browser	http://www.google.com	browser=chrome	
-	Input Text		name=q		Automate Test with Doppio
+    Open Browser    http://www.google.com    browser=chrome	
+	Input Text    name=q    Automate Test with Doppio
     simple.​Say Hello
+
+*** Test cases ***
+TC-002 Massarin Baha Central Testcase
+    Open Browser    https://www.central.co.th/en    browser=chrome	
+	Input Text    id=txt-searchProductOnSearchBar    Panasonic
+    Press Keys    None    RETURN
