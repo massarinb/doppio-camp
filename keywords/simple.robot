@@ -3,4 +3,7 @@
 	log to Console		Hellooooooo
 
 ​Say Pass
-	log to Console		PASS
+	log to Console		Pass
+
+​Say Bahaaaa
+	log to Console		Bahaaaa
