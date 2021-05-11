@@ -7,17 +7,17 @@ Test Teardown    Close All Browsers
 ${message}    test_message
 ​
 *** Test cases ***
-TC-001 Massarin Baha First Robot Testcase
+TC-001 Tis First Robot Testcase
     Open Browser    http://www.google.com    browser=chrome	
 	Input Text    name=q    Automate Test with Doppio
     simple.​Say Hello
 
-TC-002 Massarin Baha Central Testcase
+TC-002 Tis Central Testcase
     Open Browser    https://www.central.co.th/en    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    Panasonic
     Press Keys    None    RETURN
 
-TC-003 Massarin Merge Conflict Testcase 1 
+TC-003 Tis Merge Conflict Testcase 1 
     Open Browser    https://www.central.co.th/en    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    Panasonic
     Press Keys    None    RETURN
