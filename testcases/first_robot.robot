@@ -21,3 +21,8 @@ TC-003 Massarin Merge Conflict Testcase 1
     Open Browser    https://www.central.co.th/en    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    Panasonic
     Press Keys    None    RETURN
+
+TC-012 koi Merge Conflict Testcase 1
+    Open Browser    https://www.central.co.th/en    browser=chrome	
+	Input Text    id=txt-searchProductOnSearchBar    Panasonic
+    Press Keys    None    RETURN
