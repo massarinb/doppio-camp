@@ -22,6 +22,11 @@ TC-003 Massarin Merge Conflict Testcase 1
 	Input Text    id=txt-searchProductOnSearchBar    Panasonic
     Press Keys    None    RETURN
 
+TC-004 koi2 Merge Conflict Testcase 1
+    Open Browser    https://www.central.co.th/en    browser=chrome	
+	Input Text    id=txt-searchProductOnSearchBar    Panasonic
+    Press Keys    None    RETURN
+
 TC-019 Tid First Robot Testcase
     Open Browser    http://www.google.com    browser=chrome	
 	Input Text    name=q    Automate Test with Doppio
