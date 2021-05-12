@@ -72,4 +72,12 @@ TC-1002 Koi Merge Conflict Testcase 2
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    LG
 
-
+TC-555 Tis Is Trying Hard 1
+    Open Browser    https://www.central.co.th/th    browser=chrome	
+	Input Text    id=txt-searchProductOnSearchBar    LG
+    
+TC-192 Tid Merge Conflict Testcase 2
+    Open Browser    http://www.google.com    browser=chrome	
+	Input Text    name=q    Automate Test with Doppio
+    simple.​Say Hello
+    
