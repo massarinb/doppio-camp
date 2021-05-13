@@ -4,11 +4,9 @@ Library		SeleniumLibrary
 *** variables ***
 ${message}		my message
 
-
 *** keywords ***
 Say Hello
 	log to Console		ThisIsSayHello
-
 
 *** Test cases ***
 TC-001 verify that when input correct username and password then user can login

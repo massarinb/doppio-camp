@@ -70,8 +70,6 @@ TC-005 Verify that cannot create asset with duplicated ID
     ${assets_body}      GET On Session     assetSession    /assets     headers=${headers}
     Should Contain X Times  ${assets_body.text}     a007       1
 
-
-
 TC-006 Verify that modify asset API can work correctly
     Create Session      assetSession             http://localhost:8082
     ${request_body}=    Create Dictionary   username=doppio  password=weBuildBestQa
@@ -88,9 +86,6 @@ TC-006 Verify that modify asset API can work correctly
     ${assets_body}      GET On Session     assetSession    /assets     headers=${headers}
     Should Contain    ${assets_body.text}     a002      Lenovo B113
 
-
-
-
 TC-007 Verify that delete asset API can work correctly
     Create Session      assetSession             http://localhost:8082
     ${request_body}=    Create Dictionary   username=doppio  password=weBuildBestQa
@@ -104,7 +99,6 @@ TC-007 Verify that delete asset API can work correctly
     ${headers}=     Create Dictionary       token=${token}
     ${assets_body}      GET On Session     assetSession    /assets     headers=${headers}
     Should Not Contain      ${assets_body.text}     a007
-
 
 TC-008 Verify that cannot delete asset which ID does not exists
     Create Session      assetSession             http://localhost:8082
