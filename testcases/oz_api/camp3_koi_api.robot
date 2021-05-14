@@ -1,7 +1,5 @@
-
 *** Settings ***
 Library     RequestsLibrary
-
 
 *** Test Cases ***
 TC-001 Verify when input wrong username or password, API should return error
@@ -112,7 +110,3 @@ TC-008 Verify that cannot delete asset which ID does not exists
     #check error message 
     Should Be Equal     ${resp_delete.json()['status']}       failed
     Should Be Equal     ${resp_delete.json()['message']}       cannot find this id in database
-
-
-
-
