@@ -85,3 +85,8 @@ TC-10000 YEAN New Conflict Conflict Testcase 2
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    LG
     Press Keys    None    RETURN
+
+TC-456 Aump Conflict 3    
+    Open Browser    https://www.central.co.th/th    browser=chrome	
+	Input Text    id=txt-searchProductOnSearchBar    LG
+    Press Keys    None    RETURN
