@@ -16,3 +16,7 @@ TC-002 Massarin Baha Central Testcase
     Open Browser    https://www.central.co.th/en    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    Panasonic
     Press Keys    None    RETURN
+
+
+
+    TT_test
