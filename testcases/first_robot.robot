@@ -35,7 +35,6 @@ TC-019 Tid First Robot Testcase
     simple.​Say Hello
 
 TC-444 Baha Merge Conflict Testcase 2 
->>>>>>> main
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    LG
     
@@ -63,7 +62,6 @@ TC-999 Mint Merge Conflict Testcase 2
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    LG
     Press Keys    None    RETURN
-
 
 TC-888 Next Merge Conflict Testcase 1 
     Open Browser    https://www.central.co.th/th    browser=chrome	
