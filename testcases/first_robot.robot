@@ -62,8 +62,25 @@ TC-999 Mint Merge Conflict Testcase 2
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    LG
     Press Keys    None    RETURN
-
+    
 TC-888 Next Merge Conflict Testcase 1 
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    Mr. Next is Awesome
     simple.​Say Hello
+
+TC-999 Pei New Conflict Conflict Testcase 2 
+    Open Browser    https://www.central.co.th/th    browser=chrome	
+	Input Text    id=txt-searchProductOnSearchBar    LG
+    Press Keys    None    RETURN
+
+
+TC-1001 CHAMP New Conflict Conflict Testcase 2 
+    Open Browser    https://www.central.co.th/th    browser=chrome	
+	Input Text    id=txt-searchProductOnSearchBar    LG
+    Press Keys    None    RETURN
+
+TC-1002 tontoei New Conflict Conflict Testcase 2 
+    Open Browser    https://www.central.co.th/th    browser=chrome	
+	Input Text    id=txt-searchProductOnSearchBar    LG
+    Press Keys    None    RETURN
+
