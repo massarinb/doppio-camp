@@ -3,8 +3,9 @@ Library    SeleniumLibrary
 Resource    ${CURDIR}/../keywords/simple.robot
 Test Teardown    Close All Browsers
 
-*** variables ***
+*** Variables ***
 ${message}    test_message
+Conflict case
 ​
 *** Test cases ***
 TC-001 Massarin Baha First Robot Testcase
@@ -17,9 +18,10 @@ TC-002 Massarin Baha Central Testcase
 	Input Text    id=txt-searchProductOnSearchBar    Panasonic
     Press Keys    None    RETURN
 
-TC-003 Massarin Baha Merge Conflict Testcase 1 
+TC-004 Baha Central Testcase
     Open Browser    https://www.central.co.th/en    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    Panasonic
+<<<<<<< HEAD
     Press Keys    None    RETURN
 
 <<<<<<< HEAD
@@ -66,4 +68,7 @@ TC-999 Mint Merge Conflict Testcase 2
 	Input Text    id=txt-searchProductOnSearchBar    LG
 
 
+>>>>>>> main
+=======
+    Press Keys    None    RETURN
 >>>>>>> main
