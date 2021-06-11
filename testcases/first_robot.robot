@@ -79,6 +79,7 @@ TC-1001 CHAMP New Conflict Conflict Testcase 2
 	Input Text    id=txt-searchProductOnSearchBar    LG
     Press Keys    None    RETURN
 
+TC-123 Aump Conflict 2
 TC-1002 tontoei New Conflict Conflict Testcase 2 
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    LG
