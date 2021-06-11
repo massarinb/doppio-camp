@@ -5,6 +5,7 @@ Test Teardown    Close All Browsers
 
 *** Variables ***
 ${message}    test_message
+Conflict case
 ​
 *** Test cases ***
 TC-001 Massarin Baha First Robot Testcase
