@@ -20,13 +20,11 @@ TC-002 Massarin Baha Central Testcase
 
 TC-004 Baha Central Testcase
     Open Browser    https://www.central.co.th/en    browser=chrome	
-	Input Text    id=txt-searchProductOnSearchBar    Panasonic
-<<<<<<< HEAD
+    Input Text    id=txt-searchProductOnSearchBar    Panasonic
     Press Keys    None    RETURN
 
-<<<<<<< HEAD
 TC-099 Tis Merge Conflict Testcase 2 
-=======
+
 TC-440 NNN Merge Conflict Testcase 2 
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    LG
@@ -44,9 +42,7 @@ TC-444 Baha Merge Conflict Testcase 2
 TC-012 koi Merge Conflict Testcase 1
     Open Browser    https://www.central.co.th/en    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    Panasonic
-<<<<<<< HEAD
     Press Keys    None    RETURN
-=======
     Press Keys    None    RETURN
 
 TC-019 Tid First Robot Testcase
@@ -66,9 +62,4 @@ TC-099 Tis Merge Conflict Testcase 2
 TC-999 Mint Merge Conflict Testcase 2 
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    LG
-
-
->>>>>>> main
-=======
     Press Keys    None    RETURN
->>>>>>> main
