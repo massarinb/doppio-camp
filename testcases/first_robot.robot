@@ -79,9 +79,16 @@ TC-123 Aump Conflict 2
 TC-1002 tontoei New Conflict Conflict Testcase 2 
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    LG
-    Press Keys    None    
+
+    Press Keys    None   
+
+TC-10000 YEAN New Conflict Conflict Testcase 2 
+    Open Browser    https://www.central.co.th/th    browser=chrome	
+	Input Text    id=txt-searchProductOnSearchBar    LG
+    Press Keys    None    RETURN
 
 TC-888 Next Merge Conflict Testcase 1 
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    Mr. Next is Awesome
     simple.​Say Hello
+    Press Keys    None    RETURN
