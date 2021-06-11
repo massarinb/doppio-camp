@@ -67,4 +67,4 @@ TC-999 Mint Merge Conflict Testcase 2
 TC-1000 tontoei Merge Conflict Testcase 2 
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    LG
-    Press Keys    None    RETURN help me pleaseeeee
+    Press Keys    None    RETURN 
