@@ -31,7 +31,7 @@ TC-440 NNN Merge Conflict Testcase 2
 
 TC-019 Tid First Robot Testcase
     Open Browser    http://www.google.com    browser=chrome	
-	Input Text    name=q    Automate Test with Doppio
+	Input Text    name=q    mr.next is awesome
     simple.​Say Hello
 
 TC-444 Baha Merge Conflict Testcase 2 
