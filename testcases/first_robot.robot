@@ -11,6 +11,9 @@ TC-001 Massarin Baha First Robot Testcase
     Open Browser    http://www.google.com    browser=chrome	
 	Input Text    name=q    Automate Test with Doppio
     simple.​Say Hello
+	
+TC-012 AAA
+    Open Browser    http://www.google.com    browser=chrome	
 
 TC-002 Massarin Baha Central Testcase
     Open Browser    https://www.central.co.th/en    browser=chrome	
