@@ -35,7 +35,6 @@ TC-019 Tid First Robot Testcase
     simple.​Say Hello
 
 TC-444 Baha Merge Conflict Testcase 2 
->>>>>>> main
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    LG
     
@@ -86,6 +85,11 @@ TC-10000 YEAN New Conflict Conflict Testcase 2
 	Input Text    id=txt-searchProductOnSearchBar    LG
     Press Keys    None    RETURN
 
+TC-1005 tontoei New Conflict Conflict Testcase 2 
+    Open Browser    https://www.central.co.th/th    browser=chrome	
+	Input Text    id=txt-searchProductOnSearchBar    LG
+    Press Keys    None    RETURN
+    close window
 TC-456 Aump Conflict 4   
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    LG
@@ -95,3 +99,6 @@ TC-8989 Next New Conflict Conflict Testcase 2
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    NEXT is The Best
     Press Keys    None    RETURN
+=======
+    Press Keys    None    RETURN
+
