@@ -81,6 +81,11 @@ TC-1002 tontoei New Conflict Conflict Testcase 2
 	Input Text    id=txt-searchProductOnSearchBar    LG
     Press Keys    None    RETURN
 
+TC-10000 YEAN New Conflict Conflict Testcase 2 
+    Open Browser    https://www.central.co.th/th    browser=chrome	
+	Input Text    id=txt-searchProductOnSearchBar    LG
+    Press Keys    None    RETURN
+
 TC-1005 tontoei New Conflict Conflict Testcase 2 
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    LG
@@ -91,7 +96,12 @@ TC-456 Aump Conflict 4
 	Input Text    id=txt-searchProductOnSearchBar    LG
     Press Keys    None    RETURN
 
-TC-10011 YEAN New Conflict Conflict Testcase 2 
+TC-898 Next Merge Conflict Testcase 1.2
+    Open Browser    https://www.central.co.th/th    browser=chrome	
+	Input Text    id=txt-searchProductOnSearchBar    Mr. Next is Awesome
+    Press Keys    None    RETURN
+
+TC-9999 YEAN New Conflict Conflict Testcase 2 
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    LG
     Press Keys    None    RETURN
