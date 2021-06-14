@@ -99,6 +99,14 @@ TC-8989 Next New Conflict Conflict Testcase 2
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    NEXT is The Best
     Press Keys    None    RETURN
-=======
+
+TC-898 Next Merge Conflict Testcase 1.2
+    Open Browser    https://www.central.co.th/th    browser=chrome	
+	Input Text    id=txt-searchProductOnSearchBar    Mr. Next is Awesome
+    Press Keys    None    RETURN
+
+TC-91111 YEAN New Conflict Conflict Testcase 2.2
+    Open Browser    https://www.central.co.th/th    browser=chrome	
+	Input Text    id=txt-searchProductOnSearchBar    LG
     Press Keys    None    RETURN
 
