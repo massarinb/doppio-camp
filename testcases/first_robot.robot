@@ -101,7 +101,8 @@ TC-898 Next Merge Conflict Testcase 1.2
 	Input Text    id=txt-searchProductOnSearchBar    Mr. Next is Awesome
     Press Keys    None    RETURN
 
-TC-91111 YEAN New Conflict Conflict Testcase 2.2
+
+TC-1000 Next Merge Conflict Testcase 1.2 by Nampun
     Open Browser    https://www.central.co.th/th    browser=chrome	
-	Input Text    id=txt-searchProductOnSearchBar    LG
+	Input Text    id=txt-searchProductOnSearchBar    Mr. Next is Awesome
     Press Keys    None    RETURN
