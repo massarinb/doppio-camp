@@ -116,3 +116,8 @@ TC-1001 Next Merge Conflict Testcase 1.2 by Pang
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    Mr. Next is Awesome
     Press Keys    None    RETURN
+
+    TC-6264 Tan
+    Open Browser    https://www.central.co.th/th    browser=chrome	
+	Input Text    id=txt-searchProductOnSearchBar    
+    Press Keys    None    RETURN
