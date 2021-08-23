@@ -167,8 +167,8 @@ Camp8_won
     Test Conflict
 >>>>>>> 87bb362f0f20b9caf8edc5acbd0e45c2df41b4b1
 
-Poon Input male then save
-    Given user is at basic expansion page
-    When user select male
-    and user click save
-    Then popup "datasave" appear
+Poon Open test app on android
+    #test step
+    Given user open app for the first time
+    When popup appear user click close
+    Then user is at application home
