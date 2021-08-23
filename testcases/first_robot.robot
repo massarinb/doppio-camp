@@ -121,3 +121,11 @@ TC-1001 Next Merge Conflict Testcase 1.2 by Pang
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    
     Press Keys    None    RETURN
+
+    Camp8_won
+    test case
+    test Pr
+    test merge
+    test Conflict
+    
+    
