@@ -166,3 +166,9 @@ Camp8_won
     Test Merger
     Test Conflict
 >>>>>>> 87bb362f0f20b9caf8edc5acbd0e45c2df41b4b1
+
+Poon Open test app on android
+    #test step
+    Given user open app for the first time
+    When popup appear user click close
+    Then user is at application home
