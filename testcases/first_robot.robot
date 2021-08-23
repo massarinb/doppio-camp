@@ -120,19 +120,10 @@ TC-1001 Next Merge Conflict Testcase 1.2 by Pang
     TC-6264 Tan
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    
-    Press Keys    None    RETURN
+    Press Keys    None    RETURN  
 
-Test khett like pizza
-    my name is khett
-    i am 22 years old 
-    i like pizza
-    i eat pizza
-    hello world
-    for sure make fun
 Camp8_won
-    test case
-    test Pr
-    test merge
-    test Conflict
-    
-    
+    Test Case
+    Test PR
+    Test Merger
+    Test Conflict
