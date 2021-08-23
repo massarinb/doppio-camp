@@ -166,3 +166,10 @@ Camp8_won
     Test Merger
     Test Conflict
 >>>>>>> 87bb362f0f20b9caf8edc5acbd0e45c2df41b4b1
+
+Test by Hong
+    Hi
+    I'm Hong
+    Today is a great day for me
+    Hope it's good for you too!
+    Pls enjoy :)
