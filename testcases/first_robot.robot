@@ -122,6 +122,16 @@ TC-1001 Next Merge Conflict Testcase 1.2 by Pang
 	Input Text    id=txt-searchProductOnSearchBar    
     Press Keys    None    RETURN
 
+test khett purassakorn - khett
+    Purassakorn Kijsongsang
+    my nick name is khett 
+    i am 22 years old
+    i am man 
+    I like fruit
+    I have tortoise
+    I have iguanas
+    hello world
+    
 Test khett like pizza
     my name is khett
     i am 22 years old 
