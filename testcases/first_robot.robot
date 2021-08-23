@@ -120,6 +120,7 @@ TC-1001 Next Merge Conflict Testcase 1.2 by Pang
     TC-6264 Tan
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    
+<<<<<<< HEAD
     Press Keys    None    RETURN
 
 <<<<<<< HEAD
@@ -129,6 +130,20 @@ Permsin
 Ball
 Thankyou
 =======
+=======
+    Press Keys    None    RETURN  
+
+test khett purassakorn - khett
+    Purassakorn Kijsongsang
+    my nick name is khett 
+    i am 22 years old
+    i am man 
+    I like fruit
+    I have tortoise
+    I have iguanas
+    hello world
+    
+>>>>>>> 87bb362f0f20b9caf8edc5acbd0e45c2df41b4b1
 Test khett like pizza
     my name is khett
     i am 22 years old 
@@ -137,6 +152,7 @@ Test khett like pizza
     hello world
     for sure make fun
 Camp8_won
+<<<<<<< HEAD
     test case
     test Pr
     test merge
@@ -144,3 +160,9 @@ Camp8_won
     
     
 >>>>>>> e418c57e289fd63e7917736b8866841ade54d429
+=======
+    Test Case
+    Test PR
+    Test Merger
+    Test Conflict
+>>>>>>> 87bb362f0f20b9caf8edc5acbd0e45c2df41b4b1
