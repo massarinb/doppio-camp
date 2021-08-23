@@ -122,8 +122,25 @@ TC-1001 Next Merge Conflict Testcase 1.2 by Pang
 	Input Text    id=txt-searchProductOnSearchBar    
     Press Keys    None    RETURN
 
+<<<<<<< HEAD
 Test camp8_Ball
 Tewarach
 Permsin
 Ball
 Thankyou
+=======
+Test khett like pizza
+    my name is khett
+    i am 22 years old 
+    i like pizza
+    i eat pizza
+    hello world
+    for sure make fun
+Camp8_won
+    test case
+    test Pr
+    test merge
+    test Conflict
+    
+    
+>>>>>>> e418c57e289fd63e7917736b8866841ade54d429
