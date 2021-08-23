@@ -166,3 +166,10 @@ Camp8_won
     Test Merger
     Test Conflict
 >>>>>>> 87bb362f0f20b9caf8edc5acbd0e45c2df41b4b1
+
+Camp8_baifern
+    Good morning
+    I am baifern
+    I like Cat
+    I like Dog
+    Goodbye
