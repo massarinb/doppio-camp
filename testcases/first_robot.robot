@@ -161,14 +161,8 @@ Camp8_won
 Camp8 fix test
     xxx
     
-Poon Open test app on android ++
-    #test step
-    Given user open app for the first time
-    When popup appear user click close
-    Then user is at application home
-
-Poon add more TC
+Poon mod 1234
     add
     del
-    Awesome
-    then
+    fix
+    mod
