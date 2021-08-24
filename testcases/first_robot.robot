@@ -117,20 +117,17 @@ TC-1001 Next Merge Conflict Testcase 1.2 by Pang
 	Input Text    id=txt-searchProductOnSearchBar    Mr. Next is Awesome
     Press Keys    None    RETURN
 
-    TC-6264 Tan
+TC-6264 Tan
     Open Browser    https://www.central.co.th/th    browser=chrome	
 	Input Text    id=txt-searchProductOnSearchBar    
-<<<<<<< HEAD
     Press Keys    None    RETURN
 
-<<<<<<< HEAD
 Test camp8_Ball
-Tewarach
-Permsin
-Ball
-Thankyou
-=======
-=======
+    Hello
+    Tewarach
+    Permsin
+    Ball
+    Thankyou
     Press Keys    None    RETURN  
 
 test khett purassakorn - khett
@@ -143,7 +140,6 @@ test khett purassakorn - khett
     I have iguanas
     hello world
     
->>>>>>> 87bb362f0f20b9caf8edc5acbd0e45c2df41b4b1
 Test khett like pizza
     my name is khett
     i am 22 years old 
@@ -151,18 +147,52 @@ Test khett like pizza
     i eat pizza
     hello world
     for sure make fun
+
 Camp8_won
-<<<<<<< HEAD
     test case
     test Pr
     test merge
     test Conflict
-    
-    
->>>>>>> e418c57e289fd63e7917736b8866841ade54d429
-=======
     Test Case
     Test PR
     Test Merger
     Test Conflict
->>>>>>> 87bb362f0f20b9caf8edc5acbd0e45c2df41b4b1
+
+Camp8 fix test
+    xxx
+    
+Camp8_baifern 
+    Good morning
+    I am baifern
+    I like Cat
+    I like Dog
+    Goodbye
+
+
+Camp8_won
+    Test
+    delete
+    Ball
+    for
+    conflict test
+
+camp8_Ball_3rd
+    2nd not Conflict
+    creat 3rd
+    test
+    conflict
+    again
+    
+Camp8_baifern_3
+    Good morning
+    I am baifern
+    I like Cat
+    I like Dog
+    Goodbye
+
+Camp8_won
+    test
+    conflict
+    and
+    PR
+    case
