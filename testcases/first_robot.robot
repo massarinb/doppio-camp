@@ -161,6 +161,7 @@ Camp8_won
 Camp8 fix test
     xxx
     
+<<<<<<< HEAD
 Camp8_baifern 
     Good morning
     I am baifern
@@ -169,11 +170,14 @@ Camp8_baifern
     Goodbye
 
 camp8_Ball_2nd
+=======
+Camp8_won
+    Test
+    delete
+>>>>>>> 7d832e50645acd7efb46fc15c031b5ea0716f16f
     Ball
-    test
-    conflict
-    again
-    let is go
+    for
+    conflict test
 
 camp8_Ball_3rd
     2nd not Conflict
