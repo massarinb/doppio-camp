@@ -167,3 +167,10 @@ camp8_Ball_2nd
     conflict
     again
     let is go
+
+camp8_Ball_3rd
+    2nd not Conflict
+    creat 3rd
+    test
+    conflict
+    again
