@@ -167,6 +167,9 @@ Camp8_won
     Ball
     for
     conflict test
+    1111
+    2222
+    3333
 
 camp8_Ball_3rd
     2nd not Conflict
