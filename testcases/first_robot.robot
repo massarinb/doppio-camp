@@ -166,3 +166,9 @@ Poon Open test app on android ++
     Given user open app for the first time
     When popup appear user click close
     Then user is at application home
+
+Poon add more TC
+    add
+    del
+    Awesome
+    then
