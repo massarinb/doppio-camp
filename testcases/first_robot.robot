@@ -189,3 +189,10 @@ Camp8_baifern_3
     I like Cat
     I like Dog
     Goodbye
+
+Camp8_won
+    test
+    conflict
+    and
+    PR
+    case
