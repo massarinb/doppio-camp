@@ -189,3 +189,5 @@ Camp8_baifern_3
     I like Cat
     I like Dog
     Goodbye
+
+Test case
