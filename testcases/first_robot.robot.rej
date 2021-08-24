@@ -1,0 +1,12 @@
+diff a/testcases/first_robot.robot b/testcases/first_robot.robot	(rejected hunks)
+@@ -166,3 +166,10 @@
+     Test Merger
+     Test Conflict
+ >>>>>>> 87bb362f0f20b9caf8edc5acbd0e45c2df41b4b1
++
++Test HONG files
++    Chanita
++    Kertbundit
++    Hong
++    Helloooo
++    Good morning!!

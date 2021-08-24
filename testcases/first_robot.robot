@@ -158,6 +158,7 @@ Camp8_won
     Test Merger
     Test Conflict
 
+
 Camp8 fix test
     xxx
     
@@ -196,3 +197,10 @@ Camp8_won
     and
     PR
     case
+
+Test HONG files
+    Chanita
+    Kertbundit
+    Hong
+    Helloooo
+    Good morning!!
