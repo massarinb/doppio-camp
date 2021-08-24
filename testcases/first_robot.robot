@@ -167,3 +167,10 @@ camp8_Ball_2nd
     conflict
     again
     let is go
+
+Camp8_won
+    Hello
+    It's me
+    I was wondering if after all these years 
+    you'd like to meet
+    To go over everything
