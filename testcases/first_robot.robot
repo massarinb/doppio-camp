@@ -181,4 +181,10 @@ camp8_Ball_3rd
     test
     conflict
     again
-    
+
+Camp8_baifern_2
+    Good morning
+    I am baifern
+    I like Cat
+    I like Dog
+    Goodbye
