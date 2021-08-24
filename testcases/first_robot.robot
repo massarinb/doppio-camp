@@ -123,6 +123,7 @@ TC-6264 Tan
     Press Keys    None    RETURN
 
 Test camp8_Ball
+    Hello
     Tewarach
     Permsin
     Ball
@@ -159,3 +160,5 @@ Camp8_won
 
 Camp8 fix test
     xxx
+    
+    
