@@ -168,9 +168,10 @@ camp8_Ball_2nd
     again
     let is go
 
-Camp8_won
-    Hello
-    It's me
-    I was wondering if after all these years 
-    you'd like to meet
-    To go over everything
+camp8_Ball_3rd
+    2nd not Conflict
+    creat 3rd
+    test
+    conflict
+    again
+    
