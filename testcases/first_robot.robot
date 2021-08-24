@@ -161,12 +161,12 @@ Camp8_won
 Camp8 fix test
     xxx
     
-camp8_Ball_2nd
+camp8_won
+    Try
+    to
+    delete
     Ball
-    test
-    conflict
-    again
-    let is go
+    for conflict
 
 camp8_Ball_3rd
     2nd not Conflict
