@@ -1,0 +1,22 @@
+*** Settings ***
+Library		SeleniumLibrary
+
+*** Variables ***
+${message}		My Message
+
+
+*** Keywords ***  
+Say Hello
+	log To Console		ThisIsSayHello
+
+
+*** Test cases ***
+TC-001 Verify that when input correct username and password then user can login
+	Open Browser	file:///C:/Users/Wan%20Doppio/Downloads/ep01_material/ep01/ep01_small_excercise.html		browser=chrome
+	Input Text		id=username-box										won_Doppio
+	Input Text		xpath=//div[@v='password']//input					Doppiotect1234
+	Input Text		xpath=//input[@doppio='nickname']					won
+	Click Element	id=company
+	Click Element	xpath=//select/option[@value='doppio']
+	Select check box	id=op1		
+	Click Element	id=use-me
