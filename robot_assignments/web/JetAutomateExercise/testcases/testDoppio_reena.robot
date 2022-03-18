@@ -1,7 +1,7 @@
 *** Settings ***
 Resource    ${CURDIR}/../import.robot
 Test Setup    common.Open Website Doppio
-#Test Teardown    Close Browser
+Test Teardown    Close Browser
 
 *** Variable ***
 ${urlLogin}    http://125.26.15.143:13132/ 
