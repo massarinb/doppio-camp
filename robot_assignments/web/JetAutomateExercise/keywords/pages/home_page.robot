@@ -29,6 +29,3 @@ Verify displayed account should be
 Input search text on search bar
     Wait Until Element Is Visible       ${searchFieldXpath} 
     Input Text To Search Bar      ${searchText_wrong}
-
-Click search button 
-    Click Search 
