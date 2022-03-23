@@ -3,7 +3,7 @@ Resource    ${CURDIR}/../import.robot
 Test Setup      Open Test Application
 
 *** Test Cases ***
-test01
+Test 01 Verify that login page is shown with information correctly
     login_features.Open Login Page From Home Page
     login_features.Verify Login Page Title
     login_features.Verify Forgot Password Text
@@ -12,7 +12,7 @@ test01
     #Verify placeholder Text
     #Verify password title label
 
-test02
+Test 02 Displaying error message when login with invalid email on login page
     login_features.Open Login Page From Home Page
     login.Input Text To Username Field  a
     login.Click Password Field
@@ -24,11 +24,13 @@ test02
     #verify in correct email message'
     login.Click Password Field
 
- test03
+Test 03 Verify login success when input valid credential
     login_features.Open Login Page From Home Page  
     login.Input Text To Username Field   jetcarino123890@gmail.com
     login.Input Text To Password Field   Leonado007
     login.Click Login Button
     menu.Click Menu
     menu_features.Verify Name On Greeting Menu  patomtong r
+    menu.Swipe Menu Down
+    menu.Click Sign Out
  
