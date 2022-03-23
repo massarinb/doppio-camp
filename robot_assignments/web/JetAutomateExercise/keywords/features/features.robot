@@ -6,17 +6,17 @@ Resource    ${CURDIR}/../pages/productDetail.robot
 Resource    ${CURDIR}/../pages/head.robot    
 
 *** Variable ***
-
 ${urlLogin}    http://125.26.15.143:13132/
 
 *** Keywords ***
 Open Website Doppio
     Open Browser  url=${urlLogin}  browser=chrome
+
 Login With Username And Password
     [Arguments]     ${username}     ${password}
-    Input Username      ${username}
-    Input Password      ${password}
-    Click Element   ${loginButtonXpath}
+    login.Input Username      ${username}
+    login.Input Password      ${password}
+    login.Click Login
 
 Verify Login Failed
     Location Should Be      ${urlLogin} 
@@ -29,6 +29,7 @@ Verify Login Pass
     
 Verify That Search Result Contain Search Text
     [Arguments]     ${searchText}
+    Wait Until Element Is Visible   ${itemListXpath}
     ${elements}=    Get WebElements    ${itemListXpath} 
     FOR     ${element}   IN     @{elements}
         ${elementText}  Get Text   ${element}
@@ -37,24 +38,27 @@ Verify That Search Result Contain Search Text
     END
 
 Verify No Result Found
+    Wait Until Page Does Not Contain Element        ${itemCardXpath}
+    Wait Until Element Is Visible       ${notFoundXpath}
     ${text}=    Get Text    ${notFoundXpath} 
     Should be equal     ${text}     No results found.
 
-Add Item Quantity By Click Plus Button
-    [Arguments]     ${quantity}
-    FOR    ${i}    IN RANGE    ${quantity}
-           Click Element   ${plusButtonXpath} 
-    END
-
 Verify Item Quantity
-    [Arguments]     ${quantity}
+    [Arguments]     ${quantity}     ${prevQuantity}
+    Wait Until Element Does Not Contain  ${itemQuantityXpath}       ${prevQuantity} 
     ${itemQuantity}=    Get Text    ${itemQuantityXpath}   
     Should Be Equal     ${itemQuantity}     ${quantity}
 
 Clear Cart And Verify Empty Cart
-    Hover Clear Cart Button
-    Wait Until Element Is Visible       ${clearCartButtonXpath}
-    Click Clear Cart Button
+    head.Hover Clear Cart Button
+    head.Click Clear Cart Button
     Wait Until Element Contains     ${itemQuantityXpath}    0
     ${quantity}=    Get Text    ${itemQuantityXpath}
     Should Be Equal     ${quantity}     0
+
+Search Keyword Via Search Bar   
+    [Arguments]     ${searchText}
+    Wait Until Element Is Visible       ${searchFieldXpath} 
+    head.Input Text To Search Bar  ${searchText}
+    head.Click Search
+

@@ -1,10 +1,12 @@
 *** Settings ***
 Library     SeleniumLibrary
+
 *** Variable ***
 ${loginFailedText}      login failed
 ${loginIDFieldXpath}    //input[@id='username']
 ${loginPasswordFieldXpath}      //input[@id='password']
 ${loginButtonXpath}     //button[@id='loginbtn']
+
 *** Keywords ***
 Input Username
     [Arguments]     ${username2}
